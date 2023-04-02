@@ -30,18 +30,26 @@ const HomeHeader = () => {
                         <Slider {...settings}>
                             <div>
                                 <div className="child-banner banner-first">
-                                    <div className="title-banner">Công nghệ web 3d</div>
+                                    <div className="title-banner">Công nghệ 3d</div>
                                     <div className="content-banner">Công nghệ tương lai</div>
                                 </div>
                             </div>
                             <div>
-                                <div className="child-banner banner-second"></div>
+                                <div className="child-banner banner-second">
+                                    <div className="title-banner">Website đa nền tảng</div>
+                                    <div className="content-banner">Tiện lợi, nhanh chóng</div>
+                                </div>
                             </div>
                             <div>
-                                <div className="child-banner banner-third"></div>
+                                <div className="child-banner banner-third">
+                                    <div className="title-banner">Hệ thống UAV</div>
+                                </div>
                             </div>
                             <div>
-                                <div className="child-banner banner-fourth"></div>
+                                <div className="child-banner banner-fourth">
+                                    <div className="title-banner">Hệ thống quản lý</div>
+                                    <div className="content-banner">Hiện đại, hiệu quả, chính xác</div>
+                                </div>
                             </div>
                         </Slider>
                     </div>

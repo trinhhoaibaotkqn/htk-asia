@@ -56,12 +56,19 @@
                 .child-banner {
                     width: 100%;
                     height: 450px;
+                    position: relative;
 
                     .title-banner {
+                        position: absolute;
+                        left: 50%;
+                        top: 70%;
+                        width: fit-content;
+                        transform: translate(-50%);
                         font-family: Sora, sans-serif;
                         font-size: 50px;
                         font-weight: 600;
                         color: #fff;
+                        text-transform: uppercase;
                         // -webkit-animation-name: animatetop;
                         // -webkit-animation-duration: 0.4s;
                         // animation-name: animatetop;
@@ -69,6 +76,10 @@
                     }
 
                     .content-banner {
+                        position: absolute;
+                        left: 50%;
+                        top: 85%;
+                        transform: translate(-50%);
                         font-family: 'Poppins', sans-serif;
                         font-size: 30px;
                         font-weight: 600;
