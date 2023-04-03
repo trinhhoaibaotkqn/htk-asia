@@ -1,0 +1,27 @@
+{
+    "homeheader": {
+        "aboutHtk": "About HTK asia",
+        "business": "business areas",
+        "project": "Typical projects",
+        "service": "Service",
+        "associated": "Associated Company"
+    },
+    "homebanner": {
+        "title1": "3D technology",
+        "subtitle1": "Future technology",
+        "title2": "Multi-platform website",
+        "subtitle2": "Convenient, fast",
+        "title3": "system UAV",
+        "title4": "Management system",
+        "subtitle4": "Modern, efficient, accurate"
+    },
+    "business": {
+        "titleSection": "BUSINESS AREAS",
+        "subTitleSection": "Designing and outsourcing software for foreign enterprises",
+        "title1": "Hệ thống quản lí doanh nghiệp toàn diện",
+        "title2": "Multi-platform website",
+        "title3": "system UAV",
+        "title4": "Management system",
+        "title5": "Management system"
+    }
+}

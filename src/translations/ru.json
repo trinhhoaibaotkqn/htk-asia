@@ -1,0 +1,27 @@
+{
+    "homeheader": {
+        "aboutHtk": "О HTK asia",
+        "business": "бизнес-направления",
+        "project": "Типовые проекты",
+        "service": "услуга",
+        "associated": "Ассоциированная компания"
+    },
+    "homebanner": {
+        "title1": "3D технология",
+        "subtitle1": "Технологии будущего",
+        "title2": "Мультиплатформенный сайт",
+        "subtitle2": "Удобно, быстро",
+        "title3": "система UAV",
+        "title4": "Система управления",
+        "subtitle4": "Современный, эффективный, точный"
+    },
+    "business": {
+        "titleSection": "БИЗНЕС-НАПРАВЛЕНИЯ",
+        "subTitleSection": "Разработка и аутсорсинг программного обеспечения для иностранных компаний",
+        "title1": "Hệ thống quản lí doanh nghiệp toàn diện",
+        "title2": "Multi-platform website",
+        "title3": "system UAV",
+        "title4": "Management system",
+        "title5": "Management system"
+    }
+}
