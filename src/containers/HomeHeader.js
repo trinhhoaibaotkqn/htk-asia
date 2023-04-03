@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import 'animate.css';
 
 const HomeHeader = () => {
     let settings = {
@@ -29,8 +30,9 @@ const HomeHeader = () => {
                     <div className="banner-content">
                         <Slider {...settings}>
                             <div>
+                                {/* class="animate__animated  */}
                                 <div className="child-banner banner-first">
-                                    <div className="title-banner">Công nghệ 3d</div>
+                                    <div className="animate__bounce title-banner">Công nghệ 3d</div>
                                     <div className="content-banner">Công nghệ tương lai</div>
                                 </div>
                             </div>

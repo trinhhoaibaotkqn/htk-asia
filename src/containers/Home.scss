@@ -10,7 +10,7 @@
             justify-content: space-between;
             box-shadow: 7px 7px 10px -5px #fbfbfb59;
             position: fixed;
-            z-index: 10;
+            z-index: 100;
             top: 0px;
             height: 90px;
             width: 100%;
@@ -84,10 +84,8 @@
                         font-size: 30px;
                         font-weight: 600;
                         color: #fff;
-                        -webkit-animation-name: animatetop;
-                        -webkit-animation-duration: 0.4s;
                         animation-name: animatetop;
-                        animation-duration: 0.4s;
+                        animation-duration: 2s;
                     }
 
                     &.banner-first {
@@ -147,25 +145,21 @@
 
     @-webkit-keyframes animatetop {
         from {
-            top: -300px;
-            opacity: 0
+            left: 0%;
         }
 
         to {
-            top: 0;
-            opacity: 1
+            left: 50%;
         }
     }
 
     @keyframes animatetop {
         from {
-            top: -300px;
-            opacity: 0
+            left: 0%;
         }
 
         to {
-            top: 0;
-            opacity: 1
+            left: 50%;
         }
     }
 }
