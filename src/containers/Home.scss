@@ -2,6 +2,7 @@
 
 .home-header-container {
     margin: 0;
+    // width: 100vw;
 
     .home-header-content {
 
@@ -14,8 +15,7 @@
             top: 0px;
             height: 90px;
             width: 100%;
-            // background-color: $colorFirst;
-            background-color: rgb(203, 228, 238);
+            background-color: $colorSecond;
             margin: auto;
 
             .content-logo {
@@ -23,16 +23,16 @@
                 background-size: cover;
                 width: 250px;
                 height: 100%;
-                margin-left: 25px;
+                // margin-left: 25px;
             }
 
             .content-right {
                 display: flex;
-                margin-right: 20px;
+                // padding-right: 20px;
 
                 .child-content-right {
                     text-decoration: none;
-                    margin: auto 20px;
+                    margin: auto 10px;
                     font-size: 14px;
                     text-transform: uppercase;
                     font-weight: bold;
@@ -40,52 +40,54 @@
                     // color: $colorSecond;
                     color: rgb(26, 113, 189);
                 }
+
+                .language {
+                    margin: auto 10px;
+                    line-height: 40px;
+                    height: 40px;
+                    box-shadow: 0 0 2px 1px $colorFirst;
+                    border-radius: 5px;
+
+                    span {
+                        margin: 5px;
+                        font-weight: 500;
+                        cursor: pointer;
+
+                        &.active {
+                            color: $colorFirst
+                        }
+                    }
+                }
             }
         }
 
         .home-banner {
-            width: 100%;
             height: 450px;
-            background-color: #ccc;
 
             .banner-content {
-                margin: 0 auto;
-                width: 100%;
                 height: 450px;
 
                 .child-banner {
-                    width: 100%;
                     height: 450px;
                     position: relative;
 
                     .title-banner {
                         position: absolute;
-                        left: 50%;
-                        top: 70%;
-                        width: fit-content;
+                        text-align: center;
                         transform: translate(-50%);
                         font-family: Sora, sans-serif;
-                        font-size: 50px;
                         font-weight: 600;
                         color: #fff;
                         text-transform: uppercase;
-                        // -webkit-animation-name: animatetop;
-                        // -webkit-animation-duration: 0.4s;
-                        // animation-name: animatetop;
-                        // animation-duration: 0.4s;
                     }
 
                     .content-banner {
                         position: absolute;
-                        left: 50%;
-                        top: 85%;
+                        text-align: center;
                         transform: translate(-50%);
                         font-family: 'Poppins', sans-serif;
-                        font-size: 30px;
                         font-weight: 600;
                         color: #fff;
-                        animation-name: animatetop;
-                        animation-duration: 2s;
                     }
 
                     &.banner-first {
@@ -166,14 +168,14 @@
 
 .section-business-container {
     .header-section-business {
-        .title-section {
-            text-align: center;
-            margin-top: 40px;
-            text-transform: uppercase;
-            font-size: 32px;
-            font-weight: bold;
-            color: $colorTitle;
-        }
+        // .title-section {
+        //     text-align: center;
+        //     margin-top: 40px;
+        //     text-transform: uppercase;
+        //     font-size: 32px;
+        //     font-weight: bold;
+        //     color: $colorTitle;
+        // }
 
         .subs-title {
             font-family: 'Poppins', sans-serif;
@@ -267,15 +269,15 @@
     .header-section-project {
         margin: 0 auto;
 
-        .title-section {
-            width: fit-content;
-            text-align: center;
-            margin-top: 40px;
-            text-transform: uppercase;
-            font-size: 32px;
-            font-weight: bold;
-            color: $colorTitle;
-        }
+        // .title-section {
+        //     width: fit-content;
+        //     text-align: center;
+        //     margin-top: 40px;
+        //     text-transform: uppercase;
+        //     font-size: 32px;
+        //     font-weight: bold;
+        //     color: $colorTitle;
+        // }
     }
 
     .section-content {
@@ -405,77 +407,19 @@
 
 }
 
-.list-price-container {
-    .title-section-price {
-        text-align: center;
-        margin-top: 40px;
-        text-transform: uppercase;
-        font-size: 32px;
-        font-weight: bold;
-        color: $colorTitle;
-    }
-
-    .list-price-content {
-        display: flex;
-
-        .child-content-price {
-            width: 20vw;
-
-            .content-child {
-                font-size: 18px;
-                font-weight: 500;
-                margin: 15px;
-
-                li {
-                    margin: 3px;
-                }
-            }
-
-            &.child-price-discount {
-                background-color: $colorFirst;
-                color: $colorSecond;
-            }
-
-            border: 1px solid red;
-            margin: 30px;
-
-            .title-child {
-                text-align: center;
-                font-size: 26px;
-                text-transform: uppercase;
-                font-weight: 700;
-                margin: 15px 0;
-            }
-
-            a {
-                display: block;
-                text-decoration: none;
-                color: #000;
-                width: 80%;
-                height: 50px;
-                line-height: 50px;
-                text-align: center;
-                margin: 15px auto;
-                background-color: red;
-                color: #fff;
-                font-size: 26px;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-        }
-    }
+.achievement-container {
+    width: 100%;
 
     .achievement-content {
-        display: flex;
+        padding: 20px 0;
+        display: grid;
         margin-top: 50px;
-        justify-content: space-around;
-        height: 250px;
-        align-items: center;
         background-color: $colorFirst;
+        // grid-template-columns: 1fr 1fr 1fr 1fr;
 
         .child-achievement {
+            margin: 10px auto;
             color: #fff;
-            width: 200px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -491,8 +435,186 @@
             }
 
             .title-child {
-                font-size: 20px;
+                // font-size: 20px;
                 font-weight: 600;
+            }
+        }
+    }
+}
+
+.service-container {
+    // .title-section {
+    //     text-align: center;
+    //     margin-top: 40px;
+    //     text-transform: uppercase;
+    //     font-size: 32px;
+    //     font-weight: bold;
+    //     color: $colorTitle;
+    // }
+
+    .service-child-container {
+        margin-top: 20px;
+
+        .service-child {
+            text-align: center;
+            margin: 5px 0;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+.form-contact-container {
+    padding: 30px 0;
+    background-color: $colorFirst;
+    display: flex;
+
+    .contact-image {
+        background: url('../assets/contact-us-free-photo.jpg') center center no-repeat;
+        background-size: cover;
+        width: 600px;
+        height: 300px;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .contact-content {
+        padding: 0 30px;
+
+        .contact-title {
+            .header-contact {
+                margin: 10px 0;
+                text-align: left;
+                text-transform: uppercase;
+                font-size: 22px;
+                font-weight: bold;
+                color: $colorTitle;
+            }
+
+            .content-contact {
+                text-align: left;
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+
+            input,
+            select,
+            button {
+                padding: 0 5px;
+                width: 350px;
+                height: 40px;
+                margin: 5px 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+            }
+
+            option {
+                width: 350px;
+                height: 40px;
+            }
+
+            button {
+                background-color: $colorSecond;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.associated-company-container {
+
+    // .associated-company-title {
+    // .title-section {
+    //     text-align: center;
+    //     margin-top: 40px;
+    //     text-transform: uppercase;
+    //     font-size: 32px;
+    //     font-weight: bold;
+    //     color: $colorTitle;
+    // }
+
+    .child-content-container {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // display: grid;
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 30px auto;
+
+        .child-content {
+            text-align: center;
+            margin: 20px auto;
+            border-radius: 5px;
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 7px 6px rgb(0 0 0 / 40%);
+
+            .title-company {
+                margin-top: 10px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .logo-company {
+                margin: 20px auto;
+
+                &.com-1 {
+                    background: url('../assets/logictic.png') center center no-repeat;
+                    background-size: cover;
+                    width: 120px;
+                    height: 70px;
+                }
+
+                &.com-2 {
+                    background: url('../assets/geoscan.png') center center no-repeat;
+                    background-size: cover;
+                    width: 150px;
+                    height: 70px;
+                }
+
+                &.com-3 {
+                    background: url('../assets/tnt-logo.png') center center no-repeat;
+                    background-size: cover;
+                    width: 150px;
+                    height: 70px;
+                }
+
+                &.com-4 {
+                    background: url('../assets/site.png') center center no-repeat;
+                    background-size: cover;
+                    width: 150px;
+                    height: 70px;
+                }
+
+                &.com-5 {
+                    background: url('../assets/yandex.jpg') center center no-repeat;
+                    background-size: cover;
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+
+            .button-see-more {
+                width: 150px;
+                height: 35px;
+                border: none;
+                background-color: $colorFirst;
+                color: #fff;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                border-radius: 5px;
+                cursor: pointer;
             }
         }
     }

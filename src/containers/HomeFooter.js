@@ -22,7 +22,7 @@ const HomeFooter = () => {
                     <div className="child-content-right"><RiMessage2Line />  Contact Us</div>
                 </div>
             </div>
-            <div className='copy-right'>HTK ASIA &copy; 2012 All Rights Reserved </div>
+            <div className='copy-right'>HTK ASIA &copy; 2020 All Rights Reserved </div>
         </div>
     )
 }

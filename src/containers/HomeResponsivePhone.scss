@@ -1,0 +1,186 @@
+//phone
+@import '../styles/variables';
+
+@media (max-width: 420px) {
+    .home-header-container {
+        // height: 40px;
+
+        .content-right {
+            a {
+                display: none;
+            }
+        }
+
+        // .content-logo {
+        //     // display: none;
+        //     display: block;
+        //     background: url('../assets/logo-horizontal.png') center center no-repeat;
+        //     background-size: cover;
+        //     width: 250px;
+        //     height: 100%;
+        // }
+
+        .banner-content {
+
+            .child-banner {
+                .title-banner {
+                    left: 50%;
+                    width: 300px;
+                    bottom: 70px;
+                    font-size: 30px;
+
+                    // position: absolute;
+                    // text-align: center;
+                    // transform: translate(-50%);
+                    // font-family: Sora, sans-serif;
+                    // font-weight: 600;
+                    // color: #fff;
+                    // text-transform: uppercase;
+                }
+
+                .content-banner {
+                    left: 50%;
+                    width: 300px;
+                    bottom: 40px;
+                    font-size: 16px;
+
+                    // position: absolute;
+                    // text-align: center;
+                    // transform: translate(-50%);
+                    // font-family: 'Poppins', sans-serif;
+                    // font-weight: 600;
+                    // color: #fff;
+                    // animation-name: animatetop;
+                    // animation-duration: 2s;
+                }
+            }
+        }
+    }
+
+    .title-section {
+        text-align: center;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        color: $colorTitle;
+    }
+
+    .slick-next,
+    .slick-prev {
+        display: none !important;
+    }
+
+    .achievement-container {
+        .achievement-content {
+            grid-template-columns: 1fr 1fr;
+
+            .title-child {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .form-contact-container {
+        .contact-image {
+            display: none;
+        }
+
+        .contact-content {
+            padding: 0 30px;
+
+            .contact-title {
+                .header-contact {
+                    margin: 10px 0;
+                    text-align: left;
+                    text-transform: uppercase;
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: $colorTitle;
+                }
+
+                .content-contact {
+                    text-align: left;
+                    font-size: 18px;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+
+            .contact-form {
+                display: flex;
+                flex-direction: column;
+                margin: 10px 0;
+
+                input,
+                select,
+                button {
+                    padding: 0 5px;
+                    width: 270px;
+                    height: 40px;
+                    margin: 5px 0;
+                    box-sizing: border-box;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                }
+
+                option {
+                    width: 350px;
+                    height: 40px;
+                }
+
+                button {
+                    background-color: $colorSecond;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .home-footer-container {
+
+        height: fit-content;
+        background-color: #fff;
+        margin-top: 30px;
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+
+
+            .logo-footer {
+                background: url('../assets/logo.jpg') center center no-repeat;
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+                margin: auto;
+            }
+
+            .content-left-footer {
+                height: fit-content;
+                margin: auto 10px;
+                color: #000;
+
+                .child-content-left {
+                    font-family: 'Poppins', sans-serif;
+                    margin: 3px;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+
+            .content-right-footer {
+                display: none;
+            }
+        }
+
+
+        .copy-right {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+
+    }
+}

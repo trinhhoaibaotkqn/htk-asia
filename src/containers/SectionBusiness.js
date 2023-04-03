@@ -9,6 +9,16 @@ const SectionBusiness = () => {
         speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }
+        ]
     };
 
     return (
@@ -22,7 +32,7 @@ const SectionBusiness = () => {
                     <div>
                         <div className="child-content child-background-first">
                             <div className="opacity"></div>
-                            <div className="title-child">Thiết kế hệ thống quản lí doanh nghiệp</div>
+                            <div className="title-child">Hệ thống quản lí doanh nghiệp toàn diện</div>
                         </div>
                     </div>
                     <div>
@@ -42,7 +52,7 @@ const SectionBusiness = () => {
                     </div>
                     <div>
                         <div className="child-content child-background-fiveth">
-                            <div className="title-child">Lắp đặt truyền hình</div>
+                            <div className="title-child">Truyền hình và công nghệ số</div>
                         </div>
                     </div>
                 </Slider>
