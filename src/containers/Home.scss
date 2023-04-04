@@ -379,7 +379,7 @@
             }
 
             &.child-background-third {
-                background: url('../assets/qrcodeonline.jpg') center center no-repeat;
+                background: url('../assets/qrscan.png') center center no-repeat;
                 background-size: cover;
             }
 
@@ -395,6 +395,31 @@
 
             &.child-background-sixth {
                 background: url('../assets/lotte.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            &.child-background-seventh {
+                background: url('../assets/banhang.png') center center no-repeat;
+                background-size: cover;
+            }
+
+            &.child-background-eighth {
+                background: url('../assets/tiepthi.png') center center no-repeat;
+                background-size: cover;
+            }
+
+            &.child-background-nineth {
+                background: url('../assets/boost.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            &.child-background-10 {
+                background: url('../assets/3dlanhtho.png') center center no-repeat;
+                background-size: cover;
+            }
+
+            &.child-background-11 {
+                background: url('../assets/mapheart.jpg') center center no-repeat;
                 background-size: cover;
             }
 
@@ -561,6 +586,7 @@
 
     .contact-content {
         padding: 0 30px;
+        margin: 0 auto;
 
         .contact-title {
             .header-contact {

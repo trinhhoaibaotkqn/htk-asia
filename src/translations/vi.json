@@ -17,11 +17,75 @@
     },
     "business": {
         "titleSection": "LĨNH VỰC KINH DOANH",
-        "subTitleSection": "Thiết kế, gia công phần mềm cho doanh nghiệp nước ngoài",
+        "subTitleSection": "Thiết kế, gia công phần mềm và hệ thống điều khiển cho doanh nghiệp nước ngoài",
         "title1": "Hệ thống quản lí doanh nghiệp toàn diện",
-        "title2": "Multi-platform website",
-        "title3": "system UAV",
-        "title4": "Management system",
-        "title5": "Management system"
+        "title2": "Phát triển trang web 3d",
+        "title3": "Công nghệ 3d",
+        "title4": "Hệ thống điều khiển uav",
+        "title5": "Khảo sát hình ảnh nhiệt"
+    },
+    "project": {
+        "titleSection": "CÁC DỰ ÁN TIÊU BIỂU",
+        "title1": "web hiệu giày 3d",
+        "title2": "drone quét airlaser",
+        "title3": "Hệ thống thanh toán online",
+        "title4": "hệ thống quản lí dự án",
+        "title5": "web home 3d",
+        "title6": "hệ thống quản lí",
+        "title7": "web bán hàng online",
+        "title8": "phần mềm tiếp thị qua gmail",
+        "title9": "phần mềm tăng tốc android",
+        "title10": "bản đồ thành phố 3d",
+        "title11": "bản đồ nhiệt công viên"
+    },
+    "service": {
+        "titleSection": "DỊCH VỤ CỦA CHÚNG TÔI",
+        "title1": "Phần mềm quản lý doanhn nghiệp toàn diện",
+        "title2": "Phần mềm bán hàng",
+        "title3": "Hệ thống thanh toán online",
+        "title4": "Phát triển các dự án web",
+        "title5": "Phát triển các dịch vụ web SaaS",
+        "title6": "Công nghệ tăng tốc trang web AI",
+        "title7": "Phát triển trang web 3D",
+        "title8": "Phát triển nền tảng 3D/VR MRK.CLOUD",
+        "title9": "Khảo sát trên không và lập bản đồ",
+        "title10": "Khảo sát hình ảnh nhiệt",
+        "title11": "Mô hình 3D lãnh thổ"
+    },
+    "achievement": {
+        "title1": "Khách hàng trung thành",
+        "title2": "Dự án đang thực hiện",
+        "title3": "Dự án hoàn thành",
+        "title4": "Đối tác quốc tế",
+        "title5": "Thời gian túc trực",
+        "title6": "Khách hàng tin tưởng",
+        "title7": "Khu vực kinh doanh",
+        "title8": "Công ty liên kết"
+    },
+    "associated": {
+        "title": "Công ty liên kết",
+        "button": "Xem chi tiết"
+    },
+    "contact": {
+        "titleSection": "Liên lạc đến chúng tôi",
+        "nation1": "Việt Nam",
+        "nation2": "Nga",
+        "input1": "Tên người đại diện",
+        "input2": "Tên công ty",
+        "input3": "Loại dịch vụ",
+        "input4": "Số điện thoại",
+        "input5": "Email của bạn",
+        "input6": "Thông tin bổ sung",
+        "button": "Gửi"
+    },
+    "footer": {
+        "address1": "Địa chỉ Công ty: 91 Nguyễn Chí Thanh, Đống Đa, Hà Nội, Việt Nam",
+        "address21": "Văn phòng đại diện ở Nga: Nga, Mátxcơva",
+        "address22": "Quận thành phố Timiryazevsky",
+        "address23": "Đại lộ Dmitrovsky, 1, KV.418",
+        "termUse": "Điều khoản sử dụng",
+        "policy": "Chính sách bảo mật",
+        "title1": "Chăm sóc khách hàng",
+        "title2": "Liên hệ"
     }
 }

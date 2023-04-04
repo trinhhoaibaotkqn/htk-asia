@@ -36,27 +36,27 @@ const SectionBusiness = () => {
                 <Slider {...settings}>
                     <div>
                         <div className="child-content child-background-first" onClick={() => navigate('/business-management')}>
-                            <div className="title-child">Hệ thống quản lí doanh nghiệp toàn diện</div>
+                            <div className="title-child"><FormattedMessage id="business.title1" /></div>
                         </div>
                     </div>
                     <div>
                         <div className="child-content child-background-second" onClick={() => navigate('/web-3d')}>
-                            <div className="title-child">Phát triển trang web 3d</div>
+                            <div className="title-child"><FormattedMessage id="business.title2" /></div>
                         </div>
                     </div>
                     <div>
                         <div className="child-content child-background-third" onClick={() => navigate('/technology-3d')}>
-                            <div className="title-child">Công nghệ 3D</div>
+                            <div className="title-child"><FormattedMessage id="business.title3" /></div>
                         </div>
                     </div>
                     <div>
                         <div className="child-content child-background-fourth" onClick={() => navigate('/uav')}>
-                            <div className="title-child">Hệ thống điều khiển UAV</div>
+                            <div className="title-child"><FormattedMessage id="business.title4" /></div>
                         </div>
                     </div>
                     <div>
                         <div className="child-content child-background-fiveth" onClick={() => navigate('/laser')}>
-                            <div className="title-child">Khảo sát hình ảnh nhiệt độ</div>
+                            <div className="title-child"><FormattedMessage id="business.title5" /></div>
                         </div>
                     </div>
                 </Slider>

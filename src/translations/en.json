@@ -17,11 +17,75 @@
     },
     "business": {
         "titleSection": "BUSINESS AREAS",
-        "subTitleSection": "Designing and outsourcing software for foreign enterprises",
-        "title1": "Hệ thống quản lí doanh nghiệp toàn diện",
-        "title2": "Multi-platform website",
-        "title3": "system UAV",
-        "title4": "Management system",
-        "title5": "Management system"
+        "subTitleSection": "Designing, outsourcing software and control systems for foreign enterprises",
+        "title1": "Comprehensive business management system",
+        "title2": "3d website development",
+        "title3": "3D technology",
+        "title4": "system UAV",
+        "title5": "thermal imaging survey"
+    },
+    "project": {
+        "titleSection": "TYPICAL PROJECTS",
+        "title1": "3d shoe store website",
+        "title2": "drone airlaser",
+        "title3": "Online payment system",
+        "title4": "project management system",
+        "title5": "web home 3d",
+        "title6": "Enterprise management system",
+        "title7": "online sales website",
+        "title8": "gmail marketing software",
+        "title9": "Android accelerator software",
+        "title10": "3d city map",
+        "title11": "park heat map"
+    },
+    "service": {
+        "titleSection": "OUR SERVICES",
+        "title1": "Comprehensive business management software",
+        "title2": "Software sales",
+        "title3": "Online payment system",
+        "title4": "Development of web projects",
+        "title5": "Developing SaaS web services",
+        "title6": "AI Website Acceleration Technology",
+        "title7": "3D website development",
+        "title8": "3D/VR Platform Development MRK.CLOUD",
+        "title9": "Aerial surveying and mapping",
+        "title10": "Thermal imaging survey",
+        "title11": "Territory 3D model"
+    },
+    "achievement": {
+        "title1": "Loyal client",
+        "title2": "Ongoing projects",
+        "title3": "Completed projects",
+        "title4": "International partners",
+        "title5": "Client support",
+        "title6": "Trusted by customers",
+        "title7": "Business area",
+        "title8": "Associated Company"
+    },
+    "associated": {
+        "title": "Associated Company",
+        "button": "More details"
+    },
+    "contact": {
+        "titleSection": "Contact us",
+        "nation1": "Viet Nam",
+        "nation2": "Russia",
+        "input1": "Representative name",
+        "input2": "Company name",
+        "input3": "Type of service",
+        "input4": "Your phone number",
+        "input5": "Your email",
+        "input6": "Additional information",
+        "button": "Submit"
+    },
+    "footer": {
+        "address1": "91 Nguyen Chi Thanh, Đong Đa, Ha Noi, Viet Nam",
+        "address21": "Representative office in Russia: Russia, Moscow",
+        "address22": "Timiryazevsky City District",
+        "address23": "Dmitrovsky pr-d, 1, KV.418",
+        "termUse": "Terms of Use",
+        "policy": "Privacy policy",
+        "title1": "Support",
+        "title2": "Contact us"
     }
 }

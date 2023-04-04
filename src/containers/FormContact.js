@@ -1,9 +1,11 @@
 import { toast } from "react-hot-toast";
 import { useState } from "react";
-
-
+import { useSelector } from "react-redux";
+import LanguageUtils from "../utils/LanguageUtil";
+import { FormattedMessage } from "react-intl";
 
 const FormContact = () => {
+    const language = useSelector(state => state.common.language)
     const notifyComplete = () => toast.success('Bạn đã gửi thông tin thành công. Vui lòng đợi, chúng tôi sẽ liên lạc với bạn sớm nhất');
     const notifyError = () => toast.error('Vui lòng nhập đầy đủ tên người đại diện, tên công ty, email.');
 
@@ -34,48 +36,48 @@ const FormContact = () => {
         <div className="form-contact-container">
             <div className="contact-content">
                 <div className="contact-title">
-                    <div className="header-contact" >Liên lạc đến chúng tôi</div>
+                    <div className="header-contact" ><FormattedMessage id="contact.titleSection" /></div>
                     <div className="content-contact">
                         <div className="detail-contact">Whatsapp: +84 963840005</div>
-                        <div className="detail-contact">Việt Nam :+84 963840005</div>
-                        <div className="detail-contact">Nga : +7 9778003299</div>
+                        <div className="detail-contact"><FormattedMessage id="contact.nation1" />:+84 963840005</div>
+                        <div className="detail-contact"><FormattedMessage id="contact.nation2" />: +7 9778003299</div>
                         {/* <div className="detail-contact">Email : +7 (495) 780 14 00 </div> */}
                     </div>
                 </div>
                 <div className="contact-form">
                     <div className="d-flex justify-content-center">
-                        <input onChange={representativeChangeHandler} placeholder="Tên người đại diện" />
+                        <input onChange={representativeChangeHandler} placeholder={LanguageUtils.getMessageByKey("contact.input1", language)} />
                     </div>
                     <div className="d-flex justify-content-center">
-                        <input onChange={companyNameChangeHandler} placeholder="Tên công ty" />
+                        <input onChange={companyNameChangeHandler} placeholder={LanguageUtils.getMessageByKey("contact.input2", language)} />
                     </div>
                     <div className="d-flex justify-content-center">
-                        <select placeholder="Loại dịch vụ" >
-                            <option>--Loại dịch vụ--</option>
-                            <option>Phần mềm bán hàng</option>
-                            <option>Phần mềm quản lý doanhn nghiệp toàn diện</option>
-                            <option>Hệ thống thanh toán online</option>
-                            <option>Phát triển các dự án web</option>
-                            <option>Công nghệ tăng tốc trang web AI</option>
-                            <option>Phát triển nền tảng 3D/VR MRK.CLOUD</option>
-                            <option>Khảo sát trên không và lập bản đồ</option>
-                            <option>Phát triển các dịch vụ web SaaS</option>
-                            <option>Phát triển trang web 3D</option>
-                            <option>Khảo sát hình ảnh nhiệt</option>
-                            <option>Mô hình 3D lãnh thổ</option>
+                        <select >
+                            <option>--<FormattedMessage id="contact.input3" />--</option>
+                            <option><FormattedMessage id="service.title1" /></option>
+                            <option><FormattedMessage id="service.title2" /></option>
+                            <option><FormattedMessage id="service.title3" /></option>
+                            <option><FormattedMessage id="service.title4" /></option>
+                            <option><FormattedMessage id="service.title5" /></option>
+                            <option><FormattedMessage id="service.title6" /></option>
+                            <option><FormattedMessage id="service.title7" /></option>
+                            <option><FormattedMessage id="service.title8" /></option>
+                            <option><FormattedMessage id="service.title9" /></option>
+                            <option><FormattedMessage id="service.title10" /></option>
+                            <option><FormattedMessage id="service.title11" /></option>
                         </select>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <input placeholder="Điện thoại" />
+                        <input placeholder={LanguageUtils.getMessageByKey("contact.input4", language)} />
                     </div>
                     <div className="d-flex justify-content-center">
-                        <input onChange={emailChangeHandler} placeholder="Email" />
+                        <input onChange={emailChangeHandler} placeholder={LanguageUtils.getMessageByKey("contact.input5", language)} />
                     </div>
                     <div className="d-flex justify-content-center">
-                        <input placeholder="Thông tin bổ sung" />
+                        <input placeholder={LanguageUtils.getMessageByKey("contact.input6", language)} />
                     </div>
                     <div className="d-flex justify-content-center">
-                        <button onClick={formContactSubmitHandler}>Gửi</button>
+                        <button onClick={formContactSubmitHandler}><FormattedMessage id="contact.button" /></button>
                     </div>
 
                 </div>

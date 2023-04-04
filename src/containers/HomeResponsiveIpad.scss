@@ -59,11 +59,23 @@
         .contact-image {
             display: none;
         }
+
+        .contact-content {
+            text-align: center;
+            // margin: 0;
+            // margin-left: 50px;
+        }
     }
 
     .home-footer-container {
         .content-right-footer {
             display: none;
+        }
+    }
+
+    .section-project-container {
+        .title-section {
+            margin: 60% 0;
         }
     }
 
