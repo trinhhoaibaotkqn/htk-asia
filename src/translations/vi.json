@@ -1,0 +1,27 @@
+{
+    "homeheader": {
+        "aboutHtk": "Về HTK asia",
+        "business": "lĩnh vực kinh doanh",
+        "project": "Dự án tiêu biểu",
+        "service": "Dịch vụ cung cấp",
+        "associated": "Công ty liên kết"
+    },
+    "homebanner": {
+        "title1": "Công nghệ 3d",
+        "subtitle1": "Công nghệ tương lai",
+        "title2": "Website đa nền tảng",
+        "subtitle2": "Tiện lợi, nhanh chóng",
+        "title3": "Hệ thống UAV",
+        "title4": "Hệ thống quản lý",
+        "subtitle4": "Hiện đại, hiệu quả, chính xác"
+    },
+    "business": {
+        "titleSection": "LĨNH VỰC KINH DOANH",
+        "subTitleSection": "Thiết kế, gia công phần mềm cho doanh nghiệp nước ngoài",
+        "title1": "Hệ thống quản lí doanh nghiệp toàn diện",
+        "title2": "Multi-platform website",
+        "title3": "system UAV",
+        "title4": "Management system",
+        "title5": "Management system"
+    }
+}
