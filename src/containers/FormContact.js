@@ -24,7 +24,7 @@ const FormContact = () => {
     }
 
     const formContactSubmitHandler = () => {
-        if (representativeVal == '' || companyNameVal == '' || emailval == '') {
+        if (representativeVal === '' || companyNameVal === '' || emailval === '') {
             notifyError();
         } else {
             notifyComplete();

@@ -259,9 +259,11 @@
         }
     }
 }
-@media screen and (min-width : 1020px) and (max-width: 10000px){
+
+@media screen and (min-width : 1020px) and (max-width: 10000px) {
     .section-project-container {
         display: flex;
+
         .section-content {
             width: 60%;
 
@@ -271,22 +273,10 @@
 }
 
 
-@media screen and (min-width : 820px) and (max-width: 1020px){
+@media screen and (min-width : 820px) and (max-width: 1020px) {
     .section-project-container {
         display: flex;
-        .section-content {
-            width: 60%;
 
-        }
-    }
-
-
-}
-
-
-@media screen and (min-width : 450px) and (max-width: 820px){
-    .section-project-container {
-        display: flex;
         .section-content {
             width: 60%;
 
@@ -297,20 +287,36 @@
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (min-width : 450px) and (max-width: 820px) {
+    .section-project-container {
+        display: flex;
+
+        .section-content {
+            width: 60%;
+
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
     .section-project-container {
         display: block;
+
         .section-content {
             width: 90%;
 
         }
     }
 
-    .form-contact-container{
-        .detail-contact{
+    .form-contact-container {
+        .detail-contact {
             text-align: center;
-            
+
         }
+
         .header-contact {
             text-align: center !important;
 
@@ -350,7 +356,7 @@
             position: relative;
 
             &.child-background-first {
-                background: url('../assets/linh-vuc-pham-mem.jpg') center center no-repeat;
+                background: url('../assets/nt_web_home.jpg') center center no-repeat;
                 background-size: cover;
             }
 
@@ -360,24 +366,29 @@
             }
 
             &.child-background-third {
-                background: url('../assets/quản-lí.png') center center no-repeat;
+                background: url('../assets/qrcodeonline.jpg') center center no-repeat;
                 background-size: cover;
             }
 
             &.child-background-fourth {
-                background: url('../assets/quản-lí.png') center center no-repeat;
+                background: url('../assets/quanli-nhansu.png') center center no-repeat;
                 background-size: cover;
             }
 
             &.child-background-fiveth {
-                background: url('../assets/quản-lí.png') center center no-repeat;
+                background: url('../assets/3dwebhome.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            &.child-background-sixth {
+                background: url('../assets/lotte.jpg') center center no-repeat;
                 background-size: cover;
             }
 
             .title-child {
                 padding-top: 10px;
                 text-align: center;
-                font-size: 24px;
+                font-size: 20px;
                 font-weight: bold;
                 text-transform: uppercase;
                 color: $colorFirst;

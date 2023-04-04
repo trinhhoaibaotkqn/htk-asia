@@ -32,7 +32,7 @@ const SectionProject = () => {
                 <Slider {...settings}>
                     <div>
                         <div className="child-content child-background-first">
-                            {/* <div className="title-child">Thiết kế phần mềm</div> */}
+                            <div className="title-child">Web 3d hiệu giày</div>
                         </div>
                     </div>
                     <div>
@@ -40,20 +40,20 @@ const SectionProject = () => {
                             <div className="title-child">Drone QUÉT LASER KHÔNG KHÍ</div>
                         </div>
                     </div><div>
-                        <div className="child-content">
-                            <div className="title-child">Quản lí doanh nghiệp</div>
+                        <div className="child-content child-background-third">
+                            {/* <div className="title-child">Quản lí doanh nghiệp</div> */}
                         </div>
                     </div><div>
-                        <div className="child-content">
-                            <div className="title-child">sdfsdfsdf</div>
+                        <div className="child-content child-background-fourth">
+                            {/* <div className="title-child">sdfsdfsdf</div> */}
                         </div>
                     </div><div>
-                        <div className="child-content">
-                            <div className="title-child">sdfsdfsd</div>
+                        <div className="child-content child-background-fiveth">
+                            {/* <div className="title-child">sdfsdfsd</div> */}
                         </div>
                     </div><div>
-                        <div className="child-content">
-                            <div className="title-child">sdfsdfsd</div>
+                        <div className="child-content child-background-sixth">
+                            {/* <div className="title-child">sdfsdfsd</div> */}
                         </div>
                     </div>
                 </Slider>
