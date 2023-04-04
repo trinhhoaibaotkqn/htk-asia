@@ -36,10 +36,10 @@ const FormContact = () => {
                 <div className="contact-title">
                     <div className="header-contact" >Liên lạc đến chúng tôi</div>
                     <div className="content-contact">
-                        <div className="detail-contact">119606, Nga, Moscow, khách hàng tiềm năng Michurinsky 31/7</div>
-                        <div className="detail-contact">Nga : +7 (495) 780 14 00 </div>
-                        <div className="detail-contact">Nga : +7 (495) 780 14 00 </div>
-                        <div className="detail-contact">Nga : +7 (495) 780 14 00 </div>
+                        <div className="detail-contact">Whatsapp: +84 963840005</div>
+                        <div className="detail-contact">Việt Nam :+84 963840005</div>
+                        <div className="detail-contact">Nga : 7 9778003299</div>
+                        {/* <div className="detail-contact">Email : +7 (495) 780 14 00 </div> */}
                     </div>
                 </div>
                 <div className="contact-form">

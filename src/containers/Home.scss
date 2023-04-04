@@ -328,7 +328,7 @@
 .section-project-container {
     background-color: $colorFirst;
     margin-top: 50px;
-    padding-top: 20px;
+    padding: 20px 0;
     // display: flex;
 
     .header-section-project {
@@ -348,12 +348,25 @@
     .section-content {
         // width: 60%;
         height: 550px;
-        margin: 40px auto 0;
+        margin: 0px auto 0;
+
+        .title-child {
+            height: 50px;
+            line-height: 50px;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+        }
 
         .child-content {
             height: 500px;
             background-color: #ccc;
             position: relative;
+            border-radius: 5px;
+            border: 3px solid $colorFirst;
 
             &.child-background-first {
                 background: url('../assets/nt_web_home.jpg') center center no-repeat;
@@ -385,14 +398,7 @@
                 background-size: cover;
             }
 
-            .title-child {
-                padding-top: 10px;
-                text-align: center;
-                font-size: 20px;
-                font-weight: bold;
-                text-transform: uppercase;
-                color: $colorFirst;
-            }
+
         }
 
         .slick-next,
@@ -675,8 +681,12 @@
             }
 
             .button-see-more {
+                display: block;
+                margin: 0 auto;
                 width: 150px;
                 height: 35px;
+                line-height: 35px;
+                text-decoration: none;
                 border: none;
                 background-color: $colorFirst;
                 color: #fff;

@@ -7,27 +7,27 @@ const AssociatedCompany = () => {
                 <div className="child-content">
                     <div className="title-company">VR Logistic</div>
                     <div className="logo-company com-1"></div>
-                    <button className="button-see-more">Xem chi tiết</button>
+                    <a href="https://vr-logistic.com/en/" className="button-see-more">Xem chi tiết</a>
                 </div>
                 <div className="child-content">
                     <div className="title-company">GEOSCAN</div>
                     <div className="logo-company com-2"></div>
-                    <button className="button-see-more">Xem chi tiết</button>
+                    <a href="https://www.geoscan.aero/ru/services/air_laser_scanning" className="button-see-more">Xem chi tiết</a>
                 </div>
                 <div className="child-content">
                     <div className="title-company">T&T Group RUS</div>
                     <div className="logo-company com-3"></div>
-                    <button className="button-see-more">Xem chi tiết</button>
+                    <a href="https://sbis.ru/contragents/9701134954/771301001" className="button-see-more">Xem chi tiết</a>
                 </div>
                 <div className="child-content">
                     <div className="title-company">Сайт Мэйкерс</div>
                     <div className="logo-company com-4"></div>
-                    <button className="button-see-more">Xem chi tiết</button>
+                    <a href="https://www.sitemakers.ru/" className="button-see-more">Xem chi tiết</a>
                 </div>
                 <div className="child-content">
                     <div className="title-company">Yandex</div>
                     <div className="logo-company com-5"></div>
-                    <button className="button-see-more">Xem chi tiết</button>
+                    <div className="button-see-more">Xem chi tiết</div>
                 </div>
             </div>
         </div>

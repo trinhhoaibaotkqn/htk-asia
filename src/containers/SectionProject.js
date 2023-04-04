@@ -31,29 +31,31 @@ const SectionProject = () => {
             <div className="section-content">
                 <Slider {...settings}>
                     <div>
+                        <div className="title-child">Web 3d hiệu giày</div>
                         <div className="child-content child-background-first">
-                            <div className="title-child">Web 3d hiệu giày</div>
                         </div>
                     </div>
                     <div>
+                        <div className="title-child">Drone QUÉT airLASER</div>
                         <div className="child-content child-background-second">
-                            <div className="title-child">Drone QUÉT LASER KHÔNG KHÍ</div>
                         </div>
-                    </div><div>
+                    </div>
+                    <div>
+                        <div className="title-child">Cổng thanh toán online</div>
                         <div className="child-content child-background-third">
-                            {/* <div className="title-child">Quản lí doanh nghiệp</div> */}
                         </div>
-                    </div><div>
+                    </div>
+                    <div>
+                        <div className="title-child">quản lí nhân sự</div>
                         <div className="child-content child-background-fourth">
-                            {/* <div className="title-child">sdfsdfsdf</div> */}
                         </div>
                     </div><div>
+                        <div className="title-child">web home 3d</div>
                         <div className="child-content child-background-fiveth">
-                            {/* <div className="title-child">sdfsdfsd</div> */}
                         </div>
                     </div><div>
+                        <div className="title-child">quản lí doanh nghiệp</div>
                         <div className="child-content child-background-sixth">
-                            {/* <div className="title-child">sdfsdfsd</div> */}
                         </div>
                     </div>
                 </Slider>
