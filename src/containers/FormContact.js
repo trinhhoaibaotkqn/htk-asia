@@ -38,7 +38,7 @@ const FormContact = () => {
                     <div className="content-contact">
                         <div className="detail-contact">Whatsapp: +84 963840005</div>
                         <div className="detail-contact">Việt Nam :+84 963840005</div>
-                        <div className="detail-contact">Nga : 7 9778003299</div>
+                        <div className="detail-contact">Nga : +7 9778003299</div>
                         {/* <div className="detail-contact">Email : +7 (495) 780 14 00 </div> */}
                     </div>
                 </div>

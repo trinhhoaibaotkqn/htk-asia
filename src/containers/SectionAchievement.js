@@ -46,7 +46,7 @@ const SectionAchievement = () => {
                 </div>
                 <div className="child-achievement">
                     <span className="icon-child">< GiShakingHands /></span>
-                    <div className="number-child">8+</div>
+                    <div className="number-child">5+</div>
                     <div className="title-child">Công ty liên kết</div>
                 </div>
             </div>

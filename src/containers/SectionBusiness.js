@@ -2,8 +2,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FormattedMessage } from "react-intl";
+import { useNavigate } from "react-router-dom";
 
 const SectionBusiness = () => {
+
     let settings = {
         dots: false,
         infinite: true,
@@ -22,6 +24,8 @@ const SectionBusiness = () => {
         ]
     };
 
+    const navigate = useNavigate();
+
     return (
         <div id="business" className="section-business-container">
             <div className="header-section-business">
@@ -31,28 +35,28 @@ const SectionBusiness = () => {
             <div className="section-content">
                 <Slider {...settings}>
                     <div>
-                        <div className="child-content child-background-first">
+                        <div className="child-content child-background-first" onClick={() => navigate('/business-management')}>
                             <div className="title-child">Hệ thống quản lí doanh nghiệp toàn diện</div>
                         </div>
                     </div>
                     <div>
-                        <div className="child-content child-background-second">
-                            <div className="title-child">Phát triển trang web</div>
+                        <div className="child-content child-background-second" onClick={() => navigate('/web-3d')}>
+                            <div className="title-child">Phát triển trang web 3d</div>
                         </div>
                     </div>
                     <div>
-                        <div className="child-content child-background-third">
+                        <div className="child-content child-background-third" onClick={() => navigate('/technology-3d')}>
                             <div className="title-child">Công nghệ 3D</div>
                         </div>
                     </div>
                     <div>
-                        <div className="child-content child-background-fourth">
+                        <div className="child-content child-background-fourth" onClick={() => navigate('/uav')}>
                             <div className="title-child">Hệ thống điều khiển UAV</div>
                         </div>
                     </div>
                     <div>
-                        <div className="child-content child-background-fiveth">
-                            <div className="title-child">Truyền hình và công nghệ số</div>
+                        <div className="child-content child-background-fiveth" onClick={() => navigate('/laser')}>
+                            <div className="title-child">Khảo sát hình ảnh nhiệt độ</div>
                         </div>
                     </div>
                 </Slider>

@@ -332,7 +332,7 @@
     // display: flex;
 
     .header-section-project {
-        margin: 0 auto;
+        margin: 50px auto;
 
         // .title-section {
         //     width: fit-content;
@@ -449,6 +449,11 @@
                 margin: 3px;
                 font-size: 18px;
                 font-weight: 600;
+
+                &.addition {
+                    margin: 0;
+                    margin-left: 30px;
+                }
             }
         }
 
@@ -546,10 +551,10 @@
     display: flex;
 
     .contact-image {
-        background: url('../assets/contact-us-free-photo.jpg') center center no-repeat;
+        background: url('../assets/contact-me.png') center center no-repeat;
         background-size: cover;
-        width: 600px;
-        height: 300px;
+        width: 789px;
+        height: 562px;
         margin: auto;
         border-radius: 10px;
     }

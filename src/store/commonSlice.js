@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const commonSlice = createSlice({
     name: 'common',
     initialState: {
-        language: "vi"
+        language: "en"
     },
     reducers: {
         CHANGE_LANGUAGE: (state, action) => {

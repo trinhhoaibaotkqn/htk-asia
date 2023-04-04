@@ -1,0 +1,35 @@
+.detail-container {
+    .detail-content-container {
+        p {
+
+            margin-top: 30px;
+        }
+    }
+}
+
+.detail-web-3d-container {
+    .detail-content-container {
+        margin: 30px auto;
+        width: 90%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .text-detail {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    img {
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    .text-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    li {
+        margin-left: 20px;
+    }
+}
