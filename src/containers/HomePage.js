@@ -10,6 +10,9 @@ import SectionAchievement from "./SectionAchievement";
 import FormContact from "./FormContact";
 import SectionService from "./SectionService";
 import AssociatedCompany from "./AssociatedCompany";
+import 'bootstrap/dist/css/bootstrap.css';
+import  { Toaster } from 'react-hot-toast';
+
 
 const HomePage = () => {
     return (
@@ -22,7 +25,12 @@ const HomePage = () => {
             <AssociatedCompany />
             <FormContact />
             <HomeFooter />
+            <Toaster
+                position="top-right"
+                reverseOrder={false}
+            />
         </div>
+
     )
 }
 
