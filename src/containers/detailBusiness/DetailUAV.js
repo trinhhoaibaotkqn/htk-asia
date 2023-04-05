@@ -16,77 +16,78 @@ import "./Detail.scss";
 import "../HomeResponsiveLaptop.scss";
 import "../HomeResponsiveIpad.scss";
 import "../HomeResponsivePhone.scss";
+import { FormattedMessage } from "react-intl";
 
 const DetailUAV = () => {
     return (
         <div className="detail-web-3d-container">
             <HomeHeader />
-            <div className="title-section">AERIAL PHOTOGRAPHY</div>
+            <div className="title-section"><FormattedMessage id="detailUAV.titleDetail" /></div>
             <div className="detail-content-container">
                 <div className="text-detail">
-                    Một thuật ngữ thường được sử dụng để chỉ việc chụp ảnh từ không gian bằng máy bay không người lái (UAV) hoặc drone.
+                    <FormattedMessage id="detailUAV.content1" />
                 </div>
                 <div className="text-detail">
-                    Sử dụng UAV để chụp ảnh từ trên cao đã trở nên phổ biến trong nhiều lĩnh vực như quảng cáo, bất động sản, kiểm tra tài sản, địa lý, và các dự án xây dựng. Nhờ vào khả năng di chuyển linh hoạt và khả năng chụp ảnh ở các góc độ khác nhau, UAV có thể cung cấp cho người dùng những hình ảnh đẹp và chi tiết.
+                    <FormattedMessage id="detailUAV.content2" />
                 </div>
                 <img src={pic14} alt="pic2" style={{ maxWidth: '800px' }} />
                 <div className="text-detail">
-                    Cung cấp dịch vụ cho aerial photography của các đối tượng theo hướng dẫn và diện tích, cũng như xử lý các vật liệu sau đó để đạt được các kết quả sau đây:
+                    <FormattedMessage id="detailUAV.content3" />
                 </div>
                 <div className="text-detail">
-                    <li>Bản đồ đa chiều (orthophotomap)</li>
-                    <li>Đám mây điểm chặt chẽ (dense point cloud)</li>
-                    <li>Mô hình độ cao kinh tế (DEM)</li>
-                    <li>Mô hình địa hình 3D (3D terrain model).</li>
+                    <li><FormattedMessage id="detailUAV.content4" /></li>
+                    <li><FormattedMessage id="detailUAV.content5" /></li>
+                    <li><FormattedMessage id="detailUAV.content6" /></li>
+                    <li><FormattedMessage id="detailUAV.content7" /></li>
                 </div>
                 <div className="text-detail">
-                    Aerial photography là dịch vụ được yêu cầu nhiều nhất ở Nga và các nước CIS để thực hiện khảo sát và thu thập dữ liệu. Và đây là lý do tại sao:
-                    <li>Chi phí thấp</li>
+                    <FormattedMessage id="detailUAV.content8" />
+                    <li><FormattedMessage id="detailUAV.content9" /></li>
                     <div>
-                        Chi phí chụp ảnh không người lái là một vài lần ít hơn so với chi phí thu thập dữ liệu ảnh vệ tinh, cũng như các phương pháp truyền thống của các cuộc khảo sát địa chất.
+                        <FormattedMessage id="detailUAV.content10" />
                     </div>
-                    <li>Độ chính xác cao</li>
-                    <div>Sai số RMS của các điểm đặc trưng được cung cấp nhỏ hơn 10 cm. </div>
-                    <li>Độ phân giải hình ảnh cao</li>
-                    <div>Độ phân giải hình ảnh cao</div>
-                    <li>Hoạt động trong điều kiện khó khăn</li>
-                    <div>Chụp ảnh từ không gian có thể được thực hiện ở độ mây thấp và trong một phạm vi nhiệt độ rộng: từ -20° đến +40°С. Các tính năng khí động học của máy bay không người lái Geoscan cho phép chúng không bị lệch khỏi đường bay ngay cả trong thời tiết gió.</div>
-                    <li>Làm việc trong hệ thống tọa độ yêu cầu</li>
-                    <div>Kết quả bay được định vị địa lý, có thể được gán cho hệ thống tọa độ yêu cầu trong quá trình xử lý.</div>
-                    <li>Hiệu suất cao</li>
-                    <div>Đến vài trăm km vuông có thể được khảo sát mỗi ngày.</div>
+                    <li><FormattedMessage id="detailUAV.content11" /></li>
+                    <div><FormattedMessage id="detailUAV.content12" /> </div>
+                    <li><FormattedMessage id="detailUAV.content13" /></li>
+                    <div><FormattedMessage id="detailUAV.content14" /></div>
+                    <li><FormattedMessage id="detailUAV.content15" /></li>
+                    <div><FormattedMessage id="detailUAV.content16" /></div>
+                    <li><FormattedMessage id="detailUAV.content17" /></li>
+                    <div><FormattedMessage id="detailUAV.content18" /></div>
+                    <li><FormattedMessage id="detailUAV.content19" /></li>
+                    <div><FormattedMessage id="detailUAV.content20" /></div>
                 </div>
-                <div className="text-detail">Ảnh từ thiết bị máy bay không người lái chia làm  các giai đoạn công tác hiện trường và văn phòng, trong khi tập dữ liệu thu được từ kết quả của công tác văn phòng thay đổi tùy thuộc vào yêu cầu của khách hàng.</div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content21" /></div>
                 <img src={pic15} alt="pic2" style={{ maxWidth: '500px' }} />
-                <li>Thủ tục cấp phép cho việc chụp ảnh từ không gian </li>
-                <li>Chụp ảnh từ không gian bằng máy bay không người lái của Geoscan</li>
-                <li>Tạo bản đồ đa chiều với tỷ lệ yêu cầu </li>
-                <li>Tạo mô hình địa hình số </li>
-                <li>Tạo mô hình 3D </li>
-                <li>Tạo lớp cơ sở hạ tầng dữ liệu không gian </li>
+                <li><FormattedMessage id="detailUAV.content22" /></li>
+                <li><FormattedMessage id="detailUAV.content23" /></li>
+                <li><FormattedMessage id="detailUAV.content24" /></li>
+                <li><FormattedMessage id="detailUAV.content25" /> </li>
+                <li><FormattedMessage id="detailUAV.content26" /> </li>
+                <li><FormattedMessage id="detailUAV.content27" /></li>
                 <img src={pic16} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Ứng dụng của aerial photography Geodesy</div>
-                <div className="text-detail">Việc thu thập dữ liệu không gian chất lượng cao là rất quan trọng để tạo ra các sản phẩm như bản đồ và kế hoạch địa lý. Dữ liệu thu thập được sẽ được xử lý để tạo ra các bản đồ đa chiều và các mô hình số chính xác, phù hợp với đăng ký đất đai, tạo bản đồ và kế hoạch ở tỷ lệ 1:500, 1:1000 và 1:2000. Sử dụng các kỹ thuật chụp ảnh từ không gian và đo đạc địa hình, các chuyến bay được thực hiện để thu thập dữ liệu với độ chính xác cao và độ phân giải tốt. Sau đó, dữ liệu được xử lý bằng các phần mềm phục vụ cho việc tạo ra các bản đồ đa chiều và mô hình số. Các sản phẩm này sẽ được sử dụng để đăng ký đất đai, tạo bản đồ và kế hoạch, đóng góp vào quá trình phát triển đô thị và quản lý tài nguyên đất đai của một khu vực.</div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content28" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content29" /></div>
                 <img src={pic17} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Energy</div>
-                <div className="text-detail">Việc theo dõi định kỳ các cơ sở hạ tầng năng lượng cho phép thu được các hình ảnh chi tiết về cột điện, nghiên cứu các khuyết tật trên bộ cách điện và hư hỏng trên cột, xây dựng lại vị trí dây và tình trạng của khu vực được bảo vệ bằng cách sử dụng mô hình 3D. </div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content30" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content31" /></div>
                 <img src={pic18} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Urban planning	</div>
-                <div className="text-detail">Tạo mô hình chi tiết của các thành phố và các đối tượng di sản văn hóa riêng lẻ, xác định vi phạm trong đăng ký đất đai và ranh giới thực tế của việc sử dụng đất, thiết kế công trình xây dựng và lập kế hoạch cải tạo trong một môi trường ba chiều.</div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content32" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content33" /></div>
                 <img src={pic19} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Construction</div>
-                <div className="text-detail">Theo dõi quá trình xây dựng và theo dõi các thay đổi hoạt động. Tạo mô hình 3D của các tòa nhà đã xây dựng. Cung cấp dữ liệu chính xác về các đặc điểm hình học của các khu vực xây dựng, các công trình xây dựng và cơ sở hạ tầng liên quan.</div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content34" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content35" /></div>
                 <img src={pic20} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Agriculture</div>
-                <div className="text-detail">Kiểm kê đất nông nghiệp, tạo ra các bản đồ điện tử của các cánh đồng và đăng ký đất đai. Theo dõi trang thiết bị, tình trạng cây trồng và đất trống, tính toán chỉ số NDVI và các chỉ số khác. Theo dõi các hoạt động kỹ thuật nông nghiệp</div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content36" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content37" /></div>
                 <img src={pic23} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Mine Surveying</div>
-                <div className="text-detail">Cung cấp dữ liệu hình học chính xác và cập nhật về bề mặt mỏ đá, khu vực khai thác, mỏ. Kiểm soát độ hoàn thành của việc đào đất, xác định khối lượng sản xuất, tính toán các hoạt động bốc xếp, xác định tổn thất, theo dõi sự ổn định của các bên và đống.</div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content38" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content39" /></div>
                 <img src={pic21} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">Thermal Imaging</div>
-                <div className="text-detail">Theo dõi hệ thống đường ống nhiệt và mạng truyền thông. Đánh giá hiệu quả của hệ thống đường ống nhiệt, phát hiện vi phạm của lớp cách nhiệt, dấu hiệu của sự ăn mòn, rò rỉ nhiệt, kết quả là giảm chi phí cho công tác giám sát và sửa chữa</div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content40" /></div>
+                <div className="text-detail"><FormattedMessage id="detailUAV.content41" /></div>
                 <img src={pic22} alt="pic2" style={{ maxWidth: '500px' }} />
-                <div className="text-title">HTK ASIA dịch vụ khảo sát trên không và lập bản đồ </div>
+                <div className="text-title"><FormattedMessage id="detailUAV.content42" /></div>
             </div>
             <FormContact />
             <HomeFooter />
