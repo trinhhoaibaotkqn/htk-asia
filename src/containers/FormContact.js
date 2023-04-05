@@ -84,7 +84,7 @@ const FormContact = () => {
             </div>
             <div className="contact-image">
                 <div className="google-map-code">
-                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin" width="600" height="450" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
+                    <iframe title="google-map" src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.579725%2C55.808183&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNTUxOTczNDM1EkLQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0JTQvNC40YLRgNC-0LLRgdC60LjQuSDQv9GA0L7QtdC30LQsIDEiCg2KUBZCFVo8X0I%2C&z=16.56" width="700" height="500" frameborder="1" allowfullscreen="true" style={{ position: "relative" }}></iframe>
                 </div>
             </div>
         </div>
