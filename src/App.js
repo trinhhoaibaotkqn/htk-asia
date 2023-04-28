@@ -14,7 +14,6 @@ import DetailUAV from "./containers/detailBusiness/DetailUAV";
 import DetailLazer from "./containers/detailBusiness/DetailLazer";
 import TermOfUse from "./containers/detailBusiness/TermOfUse";
 import PrivacyPolicy from "./containers/detailBusiness/PrivacyPolicy";
-import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const messages = LanguageUtils.getFlattenedMessages();
@@ -25,10 +24,10 @@ function App() {
       <div className="app-container">
         <div className="app-content">
           <BrowserRouter>
-            <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<HomePage />} />
               <Route exact path="/business-management" element={<DetailManager />} />
+              <Route exact path="/erp" element={<Navigate to="https://quanlydoanhnghiep.htk-asia.com" />} />
               <Route exact path="/web-3d" element={<DetailWeb3D />} />
               <Route exact path="/technology-3d" element={<DetailTech3D />} />
               <Route exact path="/uav" element={<DetailUAV />} />
