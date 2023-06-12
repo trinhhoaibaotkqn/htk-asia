@@ -10,25 +10,22 @@
             display: flex;
             justify-content: space-between;
             box-shadow: 7px 7px 10px -5px #fbfbfb59;
-            position: fixed;
+            position: relative;
             z-index: 100;
             top: 0px;
             height: 90px;
             width: 100%;
             background-color: $colorSecond;
-            margin: auto;
 
             .content-logo {
                 background: url('../assets/logo-horizontal.png') center center no-repeat;
                 background-size: cover;
                 width: 250px;
                 height: 100%;
-                // margin-left: 25px;
             }
 
             .content-right {
                 display: flex;
-                // padding-right: 20px;
 
                 .child-content-right {
                     text-decoration: none;
@@ -39,22 +36,48 @@
                     cursor: pointer;
                     // color: $colorSecond;
                     color: rgb(26, 113, 189);
+                    padding: 5px 10px;
+                    border-radius: 6px;
+                }
+
+                .child-content-right:hover {
+                    background-color: $color-hv-header;
+                    color: #fff;
                 }
 
                 .language {
                     margin: auto 10px;
-                    line-height: 40px;
-                    height: 40px;
-                    box-shadow: 0 0 2px 1px $colorFirst;
-                    border-radius: 5px;
+                    width: 50px;
+                    text-align: center;
+                    position: relative;
 
-                    span {
-                        margin: 5px;
-                        font-weight: 500;
-                        cursor: pointer;
+                    .show-flag {
+                        width: 30px;
+                        border-radius: 10px;
+                    }
 
-                        &.active {
-                            color: $colorFirst
+                    .dropdown-content {
+                        position: absolute;
+                        background-color: $color-bg-flag;
+                        border-radius: 10px;
+                        padding: 10px 0;
+                        display: none;
+
+                        img {
+                            width: 30px;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            margin: 3px 0;
+                        }
+                    }
+                }
+
+                .language:hover {
+                    .dropdown-content {
+                        display: block;
+
+                        img:hover {
+                            opacity: 0.6;
                         }
                     }
                 }
@@ -62,19 +85,17 @@
         }
 
         .home-banner {
-            height: 450px;
 
             .banner-content {
-                height: 450px;
 
                 .child-banner {
-                    height: 450px;
                     position: relative;
 
                     .title-banner {
                         position: absolute;
-                        text-align: center;
+                        left: 50%;
                         transform: translate(-50%);
+                        text-align: center;
                         font-family: Sora, sans-serif;
                         font-weight: 600;
                         color: #fff;
@@ -83,8 +104,9 @@
 
                     .content-banner {
                         position: absolute;
-                        text-align: center;
+                        left: 50%;
                         transform: translate(-50%);
+                        text-align: center;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 600;
                         color: #fff;
@@ -113,6 +135,7 @@
 
                 .slick-next {
                     position: absolute;
+                    top: calc(50% - 90px);
                     right: 30px;
                     height: 50px;
                     width: 50px;
@@ -123,6 +146,7 @@
 
                 .slick-prev {
                     position: absolute;
+                    top: calc(50% - 90px);
                     left: 30px;
                     height: 50px;
                     width: 50px;
@@ -144,38 +168,30 @@
             }
         }
     }
-
-    @-webkit-keyframes animatetop {
-        from {
-            left: 0%;
-        }
-
-        to {
-            left: 50%;
-        }
-    }
-
-    @keyframes animatetop {
-        from {
-            left: 0%;
-        }
-
-        to {
-            left: 50%;
-        }
-    }
 }
 
 .section-business-container {
+    position: relative;
+
+    .margin-top-section {
+        .grid {
+            position: absolute;
+            transform: translateY(-60%);
+            width: 500px;
+            z-index: 50;
+        }
+
+        .wave {
+            width: 100%;
+            background: url('../assets/background/wave.png') center center no-repeat;
+            background-size: cover;
+            height: fit-content;
+            position: absolute;
+            transform: translateY(-100%);
+        }
+    }
+
     .header-section-business {
-        // .title-section {
-        //     text-align: center;
-        //     margin-top: 40px;
-        //     text-transform: uppercase;
-        //     font-size: 32px;
-        //     font-weight: bold;
-        //     color: $colorTitle;
-        // }
 
         .subs-title {
             font-family: 'Poppins', sans-serif;
@@ -187,14 +203,17 @@
 
     .section-content {
         width: 90%;
-        height: 550px;
+        height: 650px;
         margin: 0 auto;
 
         .child-content {
-            height: 500px;
-            margin: 0 10px;
+            max-width: 280px;
+            height: 600px;
+            // margin: 0 10px;
+            margin: auto;
             position: relative;
             cursor: pointer;
+            border-radius: 10px;
 
             &.child-background-first {
                 background: url('../assets/phan-tich-chi-tiet-khi-quan-ly-tai-chinh.jpg') center center no-repeat;
@@ -471,9 +490,10 @@
 
             .child-content-left {
                 font-family: 'Poppins', sans-serif;
+                // font-family: 'Gilroy-Medium', sans-serif;
                 margin: 3px;
                 font-size: 18px;
-                font-weight: 600;
+                font-weight: 400;
 
                 &.addition {
                     margin: 0;

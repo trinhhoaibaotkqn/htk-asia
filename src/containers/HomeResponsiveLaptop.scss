@@ -3,42 +3,38 @@
 //laptop
 @media (min-width: 840px) {
     .home-header-container {
-        .content-right {
-            a {
-                display: block;
-            }
-        }
-
-        .banner-content {
-            .title-banner {
-                left: 50%;
-                bottom: 90px;
-                width: 700px;
-                font-size: 50px;
-
-                // position: absolute;
-                // text-align: center;
-                // transform: translate(-50%);
-                // font-family: Sora, sans-serif;
-                // font-weight: 600;
-                // color: #fff;
-                // text-transform: uppercase;
+        .home-header-content {
+            .header-nav-container {
+                .content-right {
+                    a {
+                        display: block;
+                    }
+                }
             }
 
-            .content-banner {
-                left: 50%;
-                width: 600px;
-                bottom: 40px;
-                font-size: 30px;
+            .home-banner {
+                height: calc(100vh + 110px);
 
-                // position: absolute;
-                // text-align: center;
-                // transform: translate(-50%);
-                // font-family: 'Poppins', sans-serif;
-                // font-weight: 600;
-                // color: #fff;
-                // animation-name: animatetop;
-                // animation-duration: 2s;
+                .banner-content {
+                    height: calc(100vh + 110px);
+
+                    .child-banner {
+                        height: calc(100vh + 110px);
+
+                        .title-banner {
+                            left: 50%;
+                            bottom: 40vh;
+                            width: 700px;
+                            font-size: 50px;
+                        }
+
+                        .content-banner {
+                            width: 600px;
+                            bottom: 35vh;
+                            font-size: 30px;
+                        }
+                    }
+                }
             }
         }
     }

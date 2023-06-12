@@ -4,6 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { CHANGE_LANGUAGE } from "../store/commonSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { FormattedMessage } from "react-intl";
+import flagEn from "../assets/flag/united-kingdom.png";
+import flagVi from "../assets/flag/vietnam.png";
+import flagRu from "../assets/flag/russia.png";
 
 const HomeHeader = () => {
     let settings = {
@@ -19,7 +22,7 @@ const HomeHeader = () => {
     return (
         <div className="home-header-container">
             <div className="home-header-content">
-                <div style={{ height: '90px' }}></div>
+                {/* <div style={{ height: '90px' }}></div> */}
                 <div className="header-nav-container">
                     <div className="content-logo"></div>
                     <div className="content-right">
@@ -29,9 +32,12 @@ const HomeHeader = () => {
                         <a href="/#service" className="child-content-right"><FormattedMessage id="homeheader.service" /></a>
                         <a href="/#associated" className="child-content-right"><FormattedMessage id="homeheader.associated" /></a>
                         <div className="language">
-                            <span className={language === "vi" ? "active" : ""} onClick={() => dispatch(CHANGE_LANGUAGE("vi"))}>VI</span>
-                            <span className={language === "en" ? "active" : ""} onClick={() => dispatch(CHANGE_LANGUAGE("en"))}>EN</span>
-                            <span className={language === "ru" ? "active" : ""} onClick={() => dispatch(CHANGE_LANGUAGE("ru"))}>RU</span>
+                            <img className="show-flag" src={language === "en" ? flagEn : (language === "ru" ? flagRu : flagVi)} alt="en" />
+                            <div class="dropdown-content">
+                                <img src={flagEn} alt="en" onClick={() => dispatch(CHANGE_LANGUAGE("en"))} />
+                                <img src={flagVi} alt="vi" onClick={() => dispatch(CHANGE_LANGUAGE("vi"))} />
+                                <img src={flagRu} alt="ru" onClick={() => dispatch(CHANGE_LANGUAGE("ru"))} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -39,13 +45,13 @@ const HomeHeader = () => {
                     <div className="banner-content">
                         <Slider {...settings}>
 
-                            <div className="child-banner banner-first">
-                                <div className="title-banner"><FormattedMessage id="homebanner.title1" /></div>
-                                <div className="content-banner"><FormattedMessage id="homebanner.subtitle1" /></div>
-                            </div>
                             <div className="child-banner banner-second">
                                 <div className="title-banner"><FormattedMessage id="homebanner.title2" /></div>
                                 <div className="content-banner"><FormattedMessage id="homebanner.subtitle2" /></div>
+                            </div>
+                            <div className="child-banner banner-first">
+                                <div className="title-banner"><FormattedMessage id="homebanner.title1" /></div>
+                                <div className="content-banner"><FormattedMessage id="homebanner.subtitle1" /></div>
                             </div>
                             <div>
                                 <div className="child-banner banner-third">

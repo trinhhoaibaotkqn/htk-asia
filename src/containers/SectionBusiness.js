@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FormattedMessage } from "react-intl";
 import { useNavigate } from "react-router-dom";
+import wave from "../assets/background/wave.png";
+import grid from "../assets/background/grid.png";
 
 const SectionBusiness = () => {
 
@@ -28,6 +30,10 @@ const SectionBusiness = () => {
 
     return (
         <div id="business" className="section-business-container">
+            <div className="margin-top-section">
+                <img className="grid" src={grid} alt="wave" />
+                <img className="wave" src={wave} alt="wave" />
+            </div>
             <div className="header-section-business">
                 <div className="title-section"><FormattedMessage id="business.titleSection" /></div>
                 <div className="subs-title"><FormattedMessage id="business.subTitleSection" /></div>

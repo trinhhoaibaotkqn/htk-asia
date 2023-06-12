@@ -3,58 +3,41 @@
 
 @media (max-width: 420px) {
     .home-header-container {
+
         // height: 40px;
+        .header-nav-container {
 
-        .content-right {
-            a {
-                display: none;
-            }
-        }
-
-        // .content-logo {
-        //     // display: none;
-        //     display: block;
-        //     background: url('../assets/logo-horizontal.png') center center no-repeat;
-        //     background-size: cover;
-        //     width: 250px;
-        //     height: 100%;
-        // }
-
-        .banner-content {
-
-            .child-banner {
-                .title-banner {
-                    left: 50%;
-                    width: 300px;
-                    bottom: 70px;
-                    font-size: 30px;
-
-                    // position: absolute;
-                    // text-align: center;
-                    // transform: translate(-50%);
-                    // font-family: Sora, sans-serif;
-                    // font-weight: 600;
-                    // color: #fff;
-                    // text-transform: uppercase;
-                }
-
-                .content-banner {
-                    left: 50%;
-                    width: 300px;
-                    bottom: 40px;
-                    font-size: 16px;
-
-                    // position: absolute;
-                    // text-align: center;
-                    // transform: translate(-50%);
-                    // font-family: 'Poppins', sans-serif;
-                    // font-weight: 600;
-                    // color: #fff;
-                    // animation-name: animatetop;
-                    // animation-duration: 2s;
+            .content-right {
+                a {
+                    display: none;
                 }
             }
         }
+
+        .home-banner {
+            height: 450px;
+
+            .banner-content {
+                height: 450px;
+
+                .child-banner {
+                    height: 450px;
+
+                    .title-banner {
+                        width: 300px;
+                        bottom: 70px;
+                        font-size: 30px;
+                    }
+
+                    .content-banner {
+                        width: 300px;
+                        bottom: 40px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
     }
 
     .title-section {
@@ -66,10 +49,59 @@
         color: $colorTitle;
     }
 
-    .slick-next,
-    .slick-prev {
-        display: none !important;
+    .section-business-container {
+
+        .margin-top-section {
+            .grid {
+                width: 300px;
+            }
+        }
+
+        .section-content {
+            position: relative;
+
+            .child-content {
+                margin-top: 20px;
+
+                .title-child {
+                    font-size: 20px;
+                }
+            }
+
+            .slick-next {
+                position: absolute;
+                top: 0px;
+                right: calc(50% - 25px);
+                background: none;
+                height: 25px;
+                width: 25px;
+            }
+
+            .slick-prev {
+                position: absolute;
+                top: 0px;
+                left: calc(50% - 25px);
+                background: none;
+                height: 25px;
+                width: 25px;
+            }
+
+            .slick-next:before {
+                content: url('../assets/arrow/icons8-right-25.png');
+            }
+
+
+            .slick-prev:before {
+                content: url("../assets/arrow/icons8-arrow-left-25.png");
+            }
+        }
+
     }
+
+    // .slick-next,
+    // .slick-prev {
+    //     display: none !important;
+    // }
 
     .achievement-container {
         .achievement-content {
